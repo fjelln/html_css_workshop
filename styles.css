@@ -46,3 +46,11 @@ img {
     margin-bottom: 10px;
 }
 
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
