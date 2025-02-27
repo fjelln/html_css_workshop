@@ -25,3 +25,13 @@ h2 {
     text-align: center;
 }
 
+.product {
+    margin: 0px auto;
+    padding: 10px;
+    max-width: 600px;
+    border: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
