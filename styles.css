@@ -13,7 +13,7 @@ header {
     padding: 20px;
 }
 
-section {
+section, #products {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -25,14 +25,23 @@ h2 {
     text-align: center;
 }
 
+.product-container {
+    margin: 0px auto;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .product {
-    margin: 10px auto;
+    margin: 10px;
     padding: 10px;
     max-width: 600px;
     border: #ddd;
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 img {
